@@ -1,0 +1,115 @@
+body {
+    width:1000px;
+    margin:0 auto;
+}
+header {
+    background-color:#fffabe;
+    height:72px;
+    width:1000px;
+}
+#logo {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+    padding-left:3em;
+}
+header ul {
+    display:inline-flex;
+    float:right;
+    list-style-type: none;
+}
+header ul li {
+    margin-left:6em;
+    position:relative;
+    right:70px;
+    top:15px;
+    font-family:Ariel, Helvectica, sans-serif;
+    font-size:16px;
+    color:#515151;
+}
+header ul li:hover {
+    color: #d42551;
+}
+#our_mac_img {
+    width:1000px;
+    height:400px;
+}
+.description {
+    margin-left:3vw;
+    font-family:Ariel, Ariel, Helvectica, sans-serif;
+    font-size:14px;
+    color:#6a6969;
+    position:relative;
+}
+.big_description_text {
+    font-size:20px;
+}
+.flavors {
+    float: left;
+    display:inline-flex;
+}
+#flavors_img {
+    display:inline-flex;
+    z-index:-1;
+    position:relative;
+    bottom:270px;
+    right:250px;
+}
+.Recommended {
+    margin-top:-250px;
+}
+footer {
+    margin-top:50px;
+    width:1000px;
+    height:80px;
+    background-color: #df5277;
+}
+footer ul {
+    list-style-type: none;
+    display:inline-flex;
+    margin-left:150px;
+}
+footer ul li {
+    margin-right:100px;
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+}
+@media screen and (max-device-height:669px){
+    /*Header*/
+    header {
+        height:10vh;
+    }
+    #logo {
+        height:66px;
+        width:auto;
+        left:33vw;
+    }
+    header ul {
+        float:none;
+        position:relative;
+        left:4vw;
+        top:2.5vh;
+    }
+    header ul li {
+        font-size: 2vw;
+    }
+    /*Body*/
+    .flavors {
+        font-size: 3vw;
+    }
+    /*Footer*/
+    footer{
+        height:144px;
+        font-size: 2.3vw;
+    }
+    footer ul{
+        margin-left:50px;
+    }
+    footer p {
+        font-size:2.5vw;
+    }
+}
