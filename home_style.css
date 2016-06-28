@@ -33,6 +33,10 @@ header {
     left:200px;
     bottom:4px;
 }
+a {
+    text-decoration: none;
+    color:black;
+}
 header ul {
     display:inline-flex;
     float:right;
